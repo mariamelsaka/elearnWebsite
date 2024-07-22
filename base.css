@@ -1,0 +1,69 @@
+*{
+    font-family: "Berlin Sans FB";
+    text-transform: capitalize;
+}
+
+/* start nav bar */
+#logo{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.nav-item a{
+    color: black;
+}
+#signIn{
+    margin-left: 400px;
+}
+#btnReg{
+    background-color: #20B486;
+    width: 167px;
+    height: 40px;
+    padding: 0px;
+}
+#btnReg a{
+    color: white;
+}
+/* end nav bar */
+
+
+
+
+/* start footer */
+#footer{
+    background-color: #101828;
+    display: grid;
+    grid-template-rows: 2;
+}
+#list{
+    position: relative;
+    bottom:50px;
+}
+#list img{
+    margin-bottom:20px ;
+}
+#list,#list1,#list2,#list3,#list4,#list5{
+    display: block;
+    margin: 20px;
+}
+#list p,#list2 li p,#list3 p,#list4 p,#list5 p{
+    color: white;
+}
+#list2 #head,#list3 #head,#list4 #head,#list5 #head{
+color: #98A2B3;
+}
+#list2,#list3,#list4,#list5{
+    margin: 50px 70px 50px 70px;
+}
+#lastRowFoot{
+    display: flex;
+    flex:row;
+}
+#copyRight{
+    color: #98A2B3;
+    margin-right: 45%;
+    margin-left: 7%;
+}
+#lastRowFoot img{
+    margin: 0px 10px 0px 10px;
+}
+/* end footer */

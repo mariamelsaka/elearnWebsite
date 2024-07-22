@@ -1,0 +1,370 @@
+*{
+    font-family: "Berlin Sans FB";
+    text-transform: capitalize;
+}
+
+/* start nav bar */
+#logo{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.nav-item a{
+    color: black;
+}
+#signIn{
+    margin-left: 400px;
+}
+#btnReg{
+    background-color: #20B486;
+    width: 167px;
+    height: 40px;
+    padding: 0px;
+}
+#btnReg a{
+    color: white;
+}
+/* end nav bar */
+
+/* start sec 1 */
+/* one */
+
+#titlesTxt{
+    background-image: url("images/homePage/ 458.png");
+    background-repeat: no-repeat;
+    margin-top: 5%;
+}
+#title,#title1,#title2{
+    position: relative;
+    top: 5%;
+    left:20%;
+    font-weight: bold;
+    font-size: 50px;
+}
+#title1{
+    color: #20B486;
+}
+#smallTxt{
+    position: relative;
+    top: 5%;
+    left:20%;
+    color: gray;
+}
+#btn1{
+    color: white; 
+    background-color: #20B486;
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 2%;
+}
+#btn2{
+    color: #20B486;
+    background-color: #EAFFF9;
+    margin-top: 25%;
+}
+.txts{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.serv{
+    display: flex;
+    flex-direction: row;
+}
+.serv img{
+    width: 153px;
+    height: 36px;
+    margin: 20px;
+    position: relative;
+    left: 70px;
+    top: 15px;
+}
+.head h2,.head p{
+    margin-left: 50px;
+}
+.head h2{
+    color: #20B486;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.head p{
+    font-size: 20px;
+}
+#pOne ,#pTwo,#pThree{
+
+margin-top: 10px;
+
+}
+
+#img1 ,#img2,#img3{
+width: 32px;
+height: 32px;
+margin-left: 25px;
+margin-right: 15px;
+}
+
+/* two */
+#student{
+height: 900px;
+/* background-color: red; */
+padding-bottom: 50px;
+}
+#girl{
+    z-index: 4;
+    position: relative;
+    top:9%;
+    left:10%;    
+}
+#circle{
+    z-index: 3;
+    position: relative;
+    bottom:98%
+}
+#emptyCircle{
+    z-index: 2;
+    position: relative;
+    bottom:45%;
+    right:5%;
+}
+#circleGroup{
+    z-index: 1;
+    position: relative;
+    left: 28%;
+    bottom:131%;
+}
+#vd3{
+    z-index:5;
+    position: relative;
+    right: 100px;
+    bottom:200%;  
+}
+
+#vd2{
+    z-index:5;
+    position: relative;
+    left: 20%;
+    bottom:200%;  
+}
+#vd1{
+    z-index:5;
+    position: relative;
+    right: 8%;
+    bottom:175%;  
+}
+/* end sec 1 */
+
+/* start sec 2 services */
+
+#services{
+text-align: center;
+
+}
+#services h6{
+color: #20B486;
+}
+#services h2{
+font-weight: bolder;
+}
+
+#services .CARD{
+        /* margin: 30px;        */
+        -webkit-transition: all 1s linear ;
+        -moz-transition: all 1s linear ;
+        -ms-transition: all 1s linear ;
+        -o-transition: all 1s linear ;
+        transition: all 1s linear ;
+}
+#services .CARD:hover{
+    background-color: #4AC8AE;
+}
+#services .CARD .headCard{
+    display: flex;
+    flex-direction: row;
+}
+#services .CARD .headCard{
+font-weight: bold;
+margin: 20px;
+}
+#services .CARD .headCard  h4 pre{
+font-weight: bold;
+position: relative;
+top: 12px;
+left: 13px;
+}
+#services .CARD p{
+margin: 10px;
+}
+
+/* end sec 2  services*/
+
+
+/* start sec 3 courses price */
+#courses{
+    height: 100%;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.brief{
+    margin-left: 5%;
+    margin-top: 8%;
+}
+.brief h6{
+    color: #1A906B;
+}
+#courses .card{
+    margin: 30px 0px 30px 0px;  
+    position: relative;left: 10%;     
+}
+#courses .card img{
+    padding: 20px;
+}
+.deTitle{
+    color: #1A906B;
+}
+.card-text{
+    color: #667085;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+}
+.price h4{
+    color: #3FC89E;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* end sec 3 courses price */
+
+/* start sec4 */
+.instructors{
+    width: 100%;
+    text-align: center;
+}
+
+.instructors .card{
+    width:74.75%;
+    height: 74%;
+    margin:20% 20% 20% 15%;
+    padding: 30px;
+    background-color: #F9FAFB;
+    /* background-color: #98A2B3; */
+    text-align: center;
+}
+#avatar{
+    position: relative;
+    left:25%;
+    bottom: 4%;
+}
+.description{
+color: #667085;
+}
+.position{
+    color: #22B286;
+}
+/* end sec4 */
+
+
+/* start sec5 */
+
+.uni{
+    height: 400px;
+    background-color: #F0FAF7;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#uniImg{
+    padding-top: 55px;
+
+}
+#UniTitle{
+    font-weight: bold;
+    padding: 1% 7% 1% 7%;
+}
+#uniImg2{
+    margin-bottom: 10px;
+}
+#uniP{
+    font-weight:300;
+}
+#uniP1{
+    color: #667085;
+}
+/* end sec5 */
+
+
+/* start sec6 */
+
+.blogs{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#blog{
+    margin: 3%;
+}
+#titleBlog{
+    font-weight: bold;
+}
+.Date{
+    color: #20B486;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.rightTxt{
+    text-align: left;
+}
+.titleBlog{
+    font-weight: bold;
+    padding-left: 23%;
+}
+.descBlog{
+    color: #667085;
+    padding-left: 25%;
+}
+.ImgBlog{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+/* end sec6 */
+
+
+/* start footer */
+#footer{
+    background-color: #101828;
+    display: grid;
+    grid-template-rows: 2;
+}
+#list{
+    position: relative;
+    bottom:50px;
+}
+#list img{
+    margin-bottom:20px ;
+}
+#list,#list1,#list2,#list3,#list4,#list5{
+    display: block;
+    margin: 20px;
+}
+#list p,#list2 li p,#list3 p,#list4 p,#list5 p{
+    color: white;
+}
+#list2 #head,#list3 #head,#list4 #head,#list5 #head{
+color: #98A2B3;
+}
+#list2,#list3,#list4,#list5{
+    margin: 50px 70px 50px 70px;
+}
+#lastRowFoot{
+    display: flex;
+    flex:row;
+}
+#copyRight{
+    color: #98A2B3;
+    margin-right: 45%;
+    margin-left: 7%;
+}
+#lastRowFoot img{
+    margin: 0px 10px 0px 10px;
+}
+/* end footer */

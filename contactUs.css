@@ -1,0 +1,137 @@
+*{
+    font-family: "Berlin Sans FB";
+    text-transform: capitalize;
+}
+
+/* start nav bar */
+.navbar{
+    /* background: linear-gradient(224deg, #6675F7 0%, #57007B 100%); rgba(95, 223, 183, 0.2) */
+    height: 200px;
+    background: linear-gradient(180deg, #5fdfb7a7 -67.07%, #FFFFFF 68.59%, #FFFFFF 100%);;
+}
+.container-fluid{
+    margin-bottom: 8%;
+}
+#logo{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.nav-item a{
+    color: black;
+}
+#signIn{
+    margin-left: 400px;
+}
+#btnReg{
+    background-color: #20B486;
+    width: 167px;
+    height: 40px;
+    padding: 0px;
+}
+#btnReg a{
+    color: white;
+}
+/* end nav bar */
+
+/* start card */
+.contactUs{
+    position: relative;
+    height: 100%;
+    margin-bottom: 200px;
+}
+#col1{
+    padding-right: 10%;
+}
+#contactUsCard{
+    width: 65%;
+    margin: 0px 0px 0px 17%;
+    /* padding: 0px 13% 0px 5%; */
+    padding: 50px 150px 50px 70px;
+    position: relative;
+    bottom:105px;
+    z-index: 2;
+}
+.card .card-title{
+    color: #20B486;
+    padding-left: 45%;
+    padding-bottom: 5%;
+}
+form .btn{
+background-color: #20B486;
+color: white;
+padding: 0px 50% 0px 50%;
+}
+#exampleFormControlTextarea1 ,#exampleFormControlInput1{
+    padding: 0px 59% 0px 59%;  
+}
+#exampleFormControlTextarea1{
+    margin-bottom: 13%;
+}
+#img1{
+    position: relative;
+    left: 76%;
+    z-index: 1;
+}
+#img2{
+    position: relative;
+    left: 13%;
+    bottom:210px;
+    z-index: 1;
+}
+#img3{
+   position: relative;
+   top: 80px;
+   right: 15%;
+}
+#img4{
+    position: relative;
+    top: 80px;
+    left: 55.5%;
+}
+.media{
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+/* end card */
+
+
+/* start footer */
+#footer{
+    background-color: #101828;
+    display: grid;
+    grid-template-rows: 2;
+}
+#list{
+    position: relative;
+    bottom:50px;
+}
+#list img{
+    margin-bottom:20px ;
+}
+#list,#list1,#list2,#list3,#list4,#list5{
+    display: block;
+    margin: 20px;
+}
+#list p,#list2 li p,#list3 p,#list4 p,#list5 p{
+    color: white;
+}
+#list2 #head,#list3 #head,#list4 #head,#list5 #head{
+color: #98A2B3;
+}
+#list2,#list3,#list4,#list5{
+    margin: 50px 70px 50px 70px;
+}
+#lastRowFoot{
+    display: flex;
+    flex:row;
+}
+#copyRight{
+    color: #98A2B3;
+    margin-right: 45%;
+    margin-left: 7%;
+}
+#lastRowFoot img{
+    margin: 0px 10px 0px 10px;
+}
+/* end footer */
+

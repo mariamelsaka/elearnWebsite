@@ -1,0 +1,216 @@
+*{
+    font-family: "Berlin Sans FB";
+    text-transform: capitalize;
+}
+
+/* start nav bar */
+#logo{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.nav-item a{
+    color: black;
+}
+#signIn{
+    margin-left: 400px;
+}
+#btnReg{
+    background-color: #20B486;
+    width: 167px;
+    height: 40px;
+    padding: 0px;
+}
+#btnReg a{
+    color: white;
+}
+/* end nav bar */
+#parent{
+display: grid;
+
+}
+#sec1{
+height: 400px;
+width: 100%;
+margin-top: 5%;
+margin-bottom: 4%;
+}
+
+#sec1col1{
+    padding-left: 5%;
+}
+#secTitle{
+    color: #1A906B;
+    font-weight: bolder;
+}
+#sec1col1 h2::first-line{
+    color: #FF9B26;
+    font-weight: bold;
+}
+#join , #joinSec2{
+    background-color: #22B286;
+    color: white;
+}
+#col2sec1{
+    position: relative;
+}
+#gray{
+    background-color: #F2F2F2;
+    height: 80%;
+    width: 75%;
+    z-index: 3;
+    margin-left: 8%;
+}
+#img1 ,#img2{
+    z-index: 2;
+    width: 50%;
+    position: relative;
+}
+#img1{
+    left: 5%;
+    bottom: 38%;
+}
+#img2{
+    left: 35%;
+    bottom: 135%;
+}
+/* start sec2 */
+#sec2{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 6%;
+}
+#sec2col1{
+    position: relative;
+}
+#graysec2{
+    background-color: #F2F2F2;
+    height: 70%;
+    width: 50%;
+    z-index: 1;
+    margin: 4% 0px 0px 13%;
+}
+#img3{
+    position: relative;
+    width: 45%;
+    z-index: 2;
+    bottom:65%;
+    left: 15%;
+}
+#sec2col2 h4{
+    color: #22B286;
+    font-weight: bold;
+}
+#sec2col2 h2{
+    font-weight: bold;
+}
+/* end sec2 */
+
+/* start sec3 */
+#sec3{
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+}
+#headSec3{
+    text-align: center;
+    margin-bottom: 3%;
+}
+#headSec3 h3{
+    color: #22B286;
+    font-weight: bolder;
+}
+#headSec3 h2{
+    font-weight: bolder;
+}
+#row1Sec3{
+    margin-bottom: 5%;
+}
+#row1Sec3 .card ,#row2Sec3 .card{
+    width:300px ;
+    height:200px;
+    margin-left: 14%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#row1Sec3 .card h2 ,#row2Sec3 .card h2{
+color: #22B286;
+padding-top: 3%;
+font-weight: bolder;
+}
+.circle{ 
+    box-sizing: border-box;
+    height:100%;
+    width: 17%;
+    border-top-left-radius: 110px;  
+    border-top-right-radius: 110px;
+    background: #22B286;
+    opacity: 0.1;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ 
+}
+#one , #three,#five{
+    background-color: #F7FDF9;
+}
+#one .circle , #three .circle,#five .circle{
+    transform: rotate(-45deg);
+    position: relative;
+    top:19%;
+    right: 5%;
+    padding: 5%;
+}
+#two , #four,#sex{
+    background-color: #F2F2F2;
+}
+#two .circle, #four .circle,#sex .circle{
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    top:19%;
+    left: 1%;
+    padding: 5%;
+}
+/* end sec3 */
+
+/* start footer */
+#footer{
+    background-color: #101828;
+    display: grid;
+    grid-template-rows: 2;
+}
+#list{
+    position: relative;
+    bottom:50px;
+}
+#list img{
+    margin-bottom:20px ;
+}
+#list,#list1,#list2,#list3,#list4,#list5{
+    display: block;
+    margin: 20px;
+}
+#list p,#list2 li p,#list3 p,#list4 p,#list5 p{
+    color: white;
+}
+#list2 #head,#list3 #head,#list4 #head,#list5 #head{
+color: #98A2B3;
+}
+#list2,#list3,#list4,#list5{
+    margin: 50px 70px 50px 70px;
+}
+#lastRowFoot{
+    display: flex;
+    flex:row;
+}
+#copyRight{
+    color: #98A2B3;
+    margin-right: 45%;
+    margin-left: 7%;
+}
+#lastRowFoot img{
+    margin: 0px 10px 0px 10px;
+}
+/* end footer */
